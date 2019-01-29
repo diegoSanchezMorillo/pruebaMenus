@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="action_settings">Settings</string>
+    <string name="Personas">Contact</string>
+    <string name="BlocNotas">Bloc Notes</string>
+    <string name="title_activity_personas">Contact</string>
+    <string name="title_activity_bloc">Bloc</string>
+    <string name="Llamar">Appel</string>
+    <string name="Correo">Mail</string>
+    <string name="titulo">Enter the text string</string>
+    <string name="telefono">No phone stored</string>
+    <string name="correo">No mail saved</string>
+</resources>

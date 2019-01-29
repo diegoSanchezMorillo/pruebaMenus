@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".PersonasActivity"
+    tools:showIn="@layout/activity_personas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/empleado" />
+
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/empleadosegundo" />
+
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/empleadotercero" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imagen4"
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/empleadocuarto" />
+
+        <ImageView
+            android:id="@+id/imagen5"
+            android:layout_width="227dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/empleadoquinto" />
+
+        <ImageView
+            android:id="@+id/imagen6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/empleadosexto" />
+    </LinearLayout>
+
+</LinearLayout>
